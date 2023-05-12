@@ -1,12 +1,43 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
-/* Add styles here! */
+header,
+main {
+  display: block;
+}
+
+header {
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  height: 636px;
+}
+
+.max-width-wrapper {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 360px;
+}
+
+.title {
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+}
