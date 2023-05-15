@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  line-height: 1.5;
 }
 
 header,
@@ -16,22 +17,25 @@ main {
 }
 
 header {
-  padding-top: 120px;
-  margin-bottom: 72px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 main {
-  background-color: hsl(0deg, 0%, 60%);
-  height: 636px;
+  padding-top: 80px;
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: 6px solid hsl(0deg, 0%, 60%);
+  height: 473px;
 }
 
 .max-width-wrapper {
-  max-width: 540px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
 .intro-chunk {
   max-width: 360px;
+  margin: 64px 80px;
 }
 
 .title {
@@ -39,5 +43,19 @@ main {
 }
 
 .card {
+  padding: 16px 64px;
   background-color: white;
+  border-bottom: 6px solid hsl(0deg, 0%, 60%);
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  margin-left: -72px;
+  padding-left: 16px;
+  max-width: 400px;
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
+}
+
+strong {
+  color: hsl(0deg, 0%, 60%);
 }
